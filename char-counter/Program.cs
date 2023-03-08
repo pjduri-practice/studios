@@ -1,20 +1,19 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Welcome to character counter!");
-Console.WriteLine("Enter some text and we'll count the letters: ");
 
-string inputText = Console.ReadLine();
+string fileText = System.IO.File.ReadAllText(@"c:\Users\pjdur\Desktop\SilasBackground.txt");
 
 Dictionary<char, int> charCounts = new();
 
-for  (int i = 0; i < inputText.Length; i++)
+for  (int i = 0; i < fileText.Length; i++)
 {
-    if (!charCounts.ContainsKey(inputText[i]))
+    if (!charCounts.ContainsKey(fileText[i]))
     {
-        charCounts[inputText[i]] = 1;
+        charCounts[fileText[i]] = 1;
     }
     else
     {
-        charCounts[inputText[i]]++;
+        charCounts[fileText[i]]++;
     }
 }
 
