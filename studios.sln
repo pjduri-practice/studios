@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "area-of-circle", "area-of-circle\area-of-circle.csproj", "{6E3CCA8A-9FF3-4457-BF83-4DDF340B5572}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "char-counter", "char-counter\char-counter.csproj", "{17160045-4400-418A-A43D-6BA5C052AAA8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "char-counter-take-1", "char-counter\char-counter-take-1.csproj", "{17160045-4400-418A-A43D-6BA5C052AAA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
